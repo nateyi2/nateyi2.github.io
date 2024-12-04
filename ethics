@@ -1,2 +1,60 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Ethics</title>
+    <style>
+        body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f9;
+        }
+        header {
+        background-color: #333;
+        color: white;
+        padding: 10px 20px;
+        }
+        nav a {
+        color: white;
+       text-decoration: none;
+        padding: 8px 15px;
+        }
+        nav a:hover {
+        background-color: #575757;
+        border-radius: 5px;
+        }
+        .content {
+        margin: 20px;
+        padding: 20px;
+        background: white;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+    </head>
+    <body>
+    <header>
+        <h1>IT Ethics</h1>
+        <nav>
+        <a href="index.html">Home</a>
+        <a href="ethics.html">IT Ethics</a>
+        <a href="about.html">About</a>
+        </nav>
+        </header>
+        <main class="content">
+        <h2>Guidelines for Developers</h2>
+        <p>Developers have a responsibility to write ethical and fair code. Key considerations include:</p>
+        <ul>
+        <li>Respect for user privacy and data.</li>
+        <li>Avoiding harm through testing and quality assurance.</li>
+        <li>Transparency in algorithms and decision-making processes.</li>
+        </ul>
+        <p>Source: <a href="https://www.acm.org/code-of-ethics" target="_blank">ACM Code of Ethics</a></p>
+    </main>
+    <footer>
+    <p>&copy; 2024 Nate Yi</p>
+    </footer>
+</body>
+</html>
